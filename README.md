@@ -77,7 +77,8 @@ from bs4 import BeautifulSoup
 app = Flask(__name__) 
 CORS(app)
 # These lines initialize a Flask web application and enable Cross-Origin Resource Sharing (CORS),
-# which allows the application to make requests to a different domain than the one from which the web page originated.
+# which allows the application to make requests to a different domain
+# than the one from which the web page originated.
 
 # This code defines a route '/scream' where the scraping logic is implemented.
 @app.route('/scream')
@@ -105,7 +106,8 @@ def scrape():
 
 if __name__ == '__main__':
     app.run(debug=True)
-# This code runs the Flask application when the script is executed directly (not imported as a module), with debugging enabled.
+# This code runs the Flask application when the script is executed directly
+# (not imported as a module), with debugging enabled.
 ```
 
 ## Web Scraping Logic:
