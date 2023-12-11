@@ -121,3 +121,7 @@ if __name__ == '__main__':
 >  Web scraping should be done ethically and in accordance with the website's terms of service. Always be aware of legal and ethical
 > considerations when scraping data from websites.
 
+Here a video example how this app do the work:
+<iframe width="560" height="315" src="[URL_DEL_VIDEO](https://clipchamp.com/watch/1R0HJ2CmqO7)" frameborder="0" allowfullscreen></iframe>
+
+
