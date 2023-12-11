@@ -122,8 +122,8 @@ if __name__ == '__main__':
 > considerations when scraping data from websites.
 
 Here a video example how this app do the work:
-<a href='https://youtu.be/KWic2aNeNhw' target='_blank'>
-  <img width='30%' src='https://clipchamp.com/watch/1R0HJ2CmqO7' alt='Web Scraping con Python y React!' />
+<a href='https://clipchamp.com/watch/1R0HJ2CmqO7' target='_blank'>
+  <img width='30%' src='' alt='Web Scraping con Python y React!' />
 </a>
 
 
