@@ -122,6 +122,6 @@ if __name__ == '__main__':
 > considerations when scraping data from websites.
 
 Here a video example how this app do the work:
-<iframe width="560" height="315" src="https://clipchamp.com/watch/1R0HJ2CmqO7" frameborder="0" allowfullscreen></iframe>
+<video width="560" height="315" src="https://clipchamp.com/watch/1R0HJ2CmqO7" frameborder="0" allowfullscreen></video>
 
 
