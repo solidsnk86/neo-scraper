@@ -12,15 +12,15 @@ pip install Flask
 ```bash
 pip isntall flask-cors
 ```
--Selenium
+- Selenium
 ```bash
 pip install selenium
 ```
--Requests
+- Requests
 ```bash
 pip install requests
 ```
--BeautifulSoup
+- BeautifulSoup
 ```bash
 pip install beautifulsoup4
 ```
