@@ -9,7 +9,7 @@ CORS(app)
 
 @app.route('/scream')
 def scrape():
-    url = 'https://myportfolio-felipe.netlify.app/'
+    url = 'https://solidsnk86.netlify.app/'
     options = Options()
     options.headless = True
     driver = webdriver.Chrome(options=options)
