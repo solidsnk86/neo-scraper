@@ -115,4 +115,5 @@ if __name__ == '__main__':
 - The results are returned as a JSON response using Flask's jsonify function.
 - Finally, the finally block ensures that the WebDriver is properly closed, regardless of whether an exception occurred or not.
 
+> [!Caution]
 
