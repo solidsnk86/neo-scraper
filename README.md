@@ -77,7 +77,7 @@ CORS(app)
 # These lines initialize a Flask web application and enable Cross-Origin Resource Sharing (CORS),
 # which allows the application to make requests to a different domain than the one from which the web page originated.
 
- # This code defines a route '/scream' where the scraping logic is implemented.
+# This code defines a route '/scream' where the scraping logic is implemented.
 @app.route('/scream')
 def scrape():
     url = 'https://solidsnk86.netlify.app/'
@@ -105,3 +105,12 @@ if __name__ == '__main__':
     app.run(debug=True)
 # This code runs the Flask application when the script is executed directly (not imported as a module), with debugging enabled.
 ```
+
+## Web Scraping Logic:
+- The script specifies a target URL and configures Selenium to run in headless mode (without a visible browser window). It then creates a Chrome WebDriver instance.
+- Inside the try block, it navigates to the specified URL, waits for 5 seconds (implicitly), retrieves the page source, and parses it using BeautifulSoup.
+- The titles and articles are extracted from the HTML content using BeautifulSoup.
+- The results are returned as a JSON response using Flask's jsonify function.
+- Finally, the finally block ensures that the WebDriver is properly closed, regardless of whether an exception occurred or not.
+
+
