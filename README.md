@@ -59,10 +59,12 @@ python app.py
 ```python
 from flask import Flask, jsonify
 from flask_cors import CORS
-# These lines import the necessary modules from the Flask framework. Flask is a micro web framework for Python.
+# These lines import the necessary modules from the Flask framework.
+# Flask is a micro web framework for Python.
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-# These lines import the necessary modules from Selenium, which is a web testing library. It's being used here to simulate a browser and interact with web pages.
+# These lines import the necessary modules from Selenium,
+# which is a web testing library. It's being used here to simulate a browser and interact with web pages.
 from bs4 import BeautifulSoup
 
 app = Flask(__name__)
