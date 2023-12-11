@@ -36,5 +36,16 @@ pip install -r requirements.txt
 
 On the other hand, we need to execute the virtual server.
 >[!Important]
->You can create a virtual environment with (venv)
+>These commands must be run in your terminal or command prompt. Make sure you are in a virtual environment if you are working on a specific project. You can create a virtual environment using venv as follows:
+
+```bash
+# Crea un entorno virtual
+python -m venv myenv
+
+# Activa el entorno virtual (Windows)
+myenv\Scripts\activate
+
+# Activa el entorno virtual (Unix o MacOS)
+source myenv/bin/activate
+```
 
