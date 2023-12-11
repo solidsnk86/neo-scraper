@@ -24,7 +24,8 @@ pip install requests
 ```bash
 pip install beautifulsoup4
 ```
-Or if you want to install all the modules, I created a `requirements.txt` file. To execute you must open the terminal and enter the following:
+Or if you want to install all the modules, I created a `requirements.txt` file. To execute you must open the terminal and 
+enter the following:
 
 ```bash
 pip install -r requirements.txt
