@@ -28,7 +28,7 @@ Or if you want to install all the modules, I created a `requirements.txt` file. 
 ```bash
 pip freeze > requirements.txt
 ```
-This will save all dependencies and their versions in the <i>requirements.txt</i> file. You can then use this file to install the same dependencies in another environment with the command:
+This will save all dependencies and their versions in the <i style="underline">requirements.txt</i> file. You can then use this file to install the same dependencies in another environment with the command:
 
 ```bash
 pip install -r requirements.txt
