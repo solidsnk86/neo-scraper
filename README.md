@@ -54,3 +54,4 @@ After installing the dependencies, you can run your Flask script. Make sure you 
 ```bash
 python app.py
 ```
+- This will start your Flask application on the local server and you can access it from your browser. Make sure you open the browser and visit the address the console displays after running the script (by default, it's usually something like http://127.0.0.1:5000/).
