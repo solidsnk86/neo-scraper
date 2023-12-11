@@ -24,3 +24,6 @@ pip install requests
 ```bash
 pip install beautifulsoup4
 ```
+On the other hand, we need to execute the virtual server.
+>[!Important]
+>You can create a virtual environment with (venv)
