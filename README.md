@@ -66,12 +66,15 @@ from selenium.webdriver.chrome.options import Options
 # These lines import the necessary modules from Selenium,
 # which is a web testing library. It's being used here to simulate a browser and interact with web pages.
 from bs4 import BeautifulSoup
+# This line imports BeautifulSoup, a library for pulling data out of HTML and XML files. It is used to parse the HTML content obtained from the website.
 
-app = Flask(__name__)
+app = Flask(__name__) 
 CORS(app)
+# These lines initialize a Flask web application and enable Cross-Origin Resource Sharing (CORS),
+# which allows the application to make requests to a different domain than the one from which the web page originated.
 
-@app.route('/scream')
-def scrape():
+@app.route('/scream') # This code defines a route '/scream' where the scraping logic is implemented.
+def scrape():         # I call "scream" in my app..
     url = 'https://solidsnk86.netlify.app/'
     options = Options()
     options.headless = True
