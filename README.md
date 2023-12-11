@@ -50,7 +50,7 @@ source myenv/bin/activate
 ```
 You can then install the dependencies within the virtual environment.
 
-After installing the dependencies, you can run your Flask script. Make sure you have the complete Flask code and adjust the port or any other settings as necessary. For example, if your file is called app.py, you could run it like this:
+After installing the dependencies, you can run your Flask script. Make sure you have the complete Flask code and adjust the port or any other settings as necessary. For example, if your file is called `app.py`, you could run it like this:
 ```bash
 python app.py
 ```
