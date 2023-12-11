@@ -61,20 +61,25 @@ from flask import Flask, jsonify
 from flask_cors import CORS
 # These lines import the necessary modules from the Flask framework.
 # Flask is a micro web framework for Python.
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 # These lines import the necessary modules from Selenium,
-# which is a web testing library. It's being used here to simulate a browser and interact with web pages.
+# which is a web testing library. It's being used here to simulate a browser
+# and interact with web pages.
+
 from bs4 import BeautifulSoup
-# This line imports BeautifulSoup, a library for pulling data out of HTML and XML files. It is used to parse the HTML content obtained from the website.
+# This line imports BeautifulSoup, a library for pulling data out of HTML and XML files.
+# It is used to parse the HTML content obtained from the website.
 
 app = Flask(__name__) 
 CORS(app)
 # These lines initialize a Flask web application and enable Cross-Origin Resource Sharing (CORS),
 # which allows the application to make requests to a different domain than the one from which the web page originated.
 
-@app.route('/scream') # This code defines a route '/scream' where the scraping logic is implemented.
-def scrape():         # I call "scream" in my app..
+ # This code defines a route '/scream' where the scraping logic is implemented.
+@app.route('/scream')
+def scrape():
     url = 'https://solidsnk86.netlify.app/'
     options = Options()
     options.headless = True
@@ -98,4 +103,5 @@ def scrape():         # I call "scream" in my app..
 
 if __name__ == '__main__':
     app.run(debug=True)
+# This code runs the Flask application when the script is executed directly (not imported as a module), with debugging enabled.
 ```
