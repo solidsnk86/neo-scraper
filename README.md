@@ -122,8 +122,7 @@ if __name__ == '__main__':
 > considerations when scraping data from websites.
 
 <a href='https://youtu.be/_rqO9D4aFAw' target='_blank'>
-    Here a video in YouToube explains how this app do the work:
-  <img width='50%' src='https://github.com/solidsnk86/neo-scraper/blob/master/Scripts/scraping-neotecs.png?raw=true' alt='Web Scraping con Python y React!' />
+    Here is a short video on YouTube that explains how this app works. In my case, I use it in my React web app and call it with Axios.
 </a>
 
 
