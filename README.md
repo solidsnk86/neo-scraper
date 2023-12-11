@@ -24,6 +24,13 @@ pip install requests
 ```bash
 pip install beautifulsoup4
 ```
+Or if you want to install all modules, i created a `requirements.txt`. To execute you must open the terminal:
+
+```bash
+pip install -r requirements.txt
+```
+
 On the other hand, we need to execute the virtual server.
 >[!Important]
 >You can create a virtual environment with (venv)
+
