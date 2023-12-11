@@ -121,9 +121,9 @@ if __name__ == '__main__':
 >  Web scraping should be done ethically and in accordance with the website's terms of service. Always be aware of legal and ethical
 > considerations when scraping data from websites.
 
-Here a video example how this app do the work:
+Here a video in YouToube explains how this app do the work:
 <a href='https://youtu.be/_rqO9D4aFAw' target='_blank'>
-  <img width='30%' src='https://github.com/solidsnk86/neo-scraper/blob/master/Scripts/scraping-neotecs.png?raw=true' alt='Web Scraping con Python y React!' />
+  <img width='50%' src='https://github.com/solidsnk86/neo-scraper/blob/master/Scripts/scraping-neotecs.png?raw=true' alt='Web Scraping con Python y React!' />
 </a>
 
 
