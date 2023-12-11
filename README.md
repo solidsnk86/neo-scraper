@@ -24,8 +24,11 @@ pip install requests
 ```bash
 pip install beautifulsoup4
 ```
-Or if you want to install all the modules, I created a `requirements.txt` file. To execute you must open the terminal and 
-enter the following:
+Or if you want to install all the modules, I created a `requirements.txt` file. ¿Do you know how to generate an automatic `requirements.txt`?
+```bash
+pip freeze > requirements.txt
+```
+This will save all dependencies and their versions in the <b>requirements.txt</b> file. You can then use this file to install the same dependencies in another environment with the command:
 
 ```bash
 pip install -r requirements.txt
