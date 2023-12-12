@@ -132,7 +132,7 @@ if __name__ == '__main__':
     from flask import Flask, jsonify
     return jsonify({'titles': titles, 'articles': articles})
 </pre>
-<img width="50%" src="" alt="JSON image description." />
+<img width="50%" src="https://github.com/solidsnk86/neo-scraper/blob/master/public/json_scraping.png?raw=true" alt="JSON image description." />
 
 #
 
