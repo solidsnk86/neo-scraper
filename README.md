@@ -122,7 +122,7 @@ if __name__ == '__main__':
 > considerations when scraping data from websites.
 
 <a href='https://youtu.be/_rqO9D4aFAw' target='_blank'>
-    I have a short video on YouTube that show you how this app works. In my case, I use it in my React web app and call it with Axios.
+    I have a short video on YouTube that show you how this app works. In my case, I use it in my React web app and call it with Axios. Follow this link.
 </a>
 
 # 
