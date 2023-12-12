@@ -124,7 +124,7 @@ if __name__ == '__main__':
 <a href='https://youtu.be/_rqO9D4aFAw' target='_blank'>
     Here is a short video on YouTube that explains how this app works. In my case, I use it in my React web app and call it with Axios.
 </a>
-<img width="50%" src="https://github.com/solidsnk86/neo-scraper/blob/master/public/json_scraping.png?raw=true" alt="JSON image description." />
+<img width="50%" src="" alt="JSON image description." />
 
 #
 
