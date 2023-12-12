@@ -130,4 +130,5 @@ if __name__ == '__main__':
 <p>Contact for any queries or feedback, feel free to reach out to my email ✉️ at:</p>
 <a href="mailto: calcagni.gabriel86@gmail.com">calcagni.gabriel86@gmail.com</a>
 
-<footer>NeoTecs Dev &;copy2023</footer>
+<footer style="color: #5A9852;">NeoTecs Dev ©2023</footer>
+
