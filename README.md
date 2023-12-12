@@ -132,5 +132,5 @@ if __name__ == '__main__':
 
 #
 
-<footer style="center">NeoTecs Dev ©2023</footer>
+<footer style="align: center">NeoTecs Dev ©2023</footer>
 
