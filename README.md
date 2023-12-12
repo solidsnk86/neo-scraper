@@ -128,7 +128,6 @@ if __name__ == '__main__':
 - Here is a brief description from the JSON that we will receive from the Python app.
 <pre>
     from flask import Flask, jsonify
-    
     return jsonify({'titles': titles, 'articles': articles})
 </pre>
 <img width="50%" src="" alt="JSON image description." />
