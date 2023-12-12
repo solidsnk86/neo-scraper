@@ -125,6 +125,8 @@ if __name__ == '__main__':
     Here is a short video on YouTube that explains how this app works. In my case, I use it in my React web app and call it with Axios.
 </a>
 
-Contact for any queries or feedback, feel free to reach out to my email ✉️ at:
+#
+
+<p>Contact for any queries or feedback, feel free to reach out to my email ✉️ at:</p>
 <a href="mailto: calcagni.gabriel86@gmail.com">calcagni.gabriel86@gmail.com</a>
 
