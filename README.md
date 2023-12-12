@@ -122,9 +122,9 @@ if __name__ == '__main__':
 > considerations when scraping data from websites.
 
 <a href='https://youtu.be/_rqO9D4aFAw' target='_blank'>
-    Here is a short video on YouTube that explains how this app works. In my case, I use it in my React web app and call it with Axios.
+    I have a short video on YouTube that show you how this app works. In my case, I use it in my React web app and call it with Axios.
 </a>
-
+# 
 - Here is a brief description from the JSON that we will receive from the Python app.
 <pre>
     from flask import Flask, jsonify
