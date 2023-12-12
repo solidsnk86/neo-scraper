@@ -137,7 +137,7 @@ if __name__ == '__main__':
 #
 
 <p>Contact for any queries or feedback, feel free to reach out to my email at:</p>
-<a href="mailto: calcagni.gabriel86@gmail.com">📩 calcagni.gabriel86@gmail.com</a>
+[![Email](https://img.shields.io/badge/Email-calcagni.gabriel86%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:calcagni.gabriel86@gmail.com)
 
 #
 
