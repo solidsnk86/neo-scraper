@@ -137,6 +137,7 @@ if __name__ == '__main__':
 #
 
 <p>Contact for any queries or feedback, feel free to reach out to my email at:</p>
+
 [![Gmail Badge](https://img.shields.io/badge/-calcagni.gabriel86@gmail.com-d14836?style=flat&logo=Gmail&logoColor=white&link=mailto:mailto:calcagni.gabriel86@gmail.com)](mailto:calcagni.gabriel86@gmail.com)
 
 #
