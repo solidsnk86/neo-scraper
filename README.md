@@ -136,8 +136,8 @@ if __name__ == '__main__':
 
 #
 
-<p>Contact for any queries or feedback, feel free to reach out to my email ✉️ at:</p>
-<a href="mailto: calcagni.gabriel86@gmail.com">calcagni.gabriel86@gmail.com</a>
+<p>Contact for any queries or feedback, feel free to reach out to my email at:</p>
+<a href="mailto: calcagni.gabriel86@gmail.com">📩 calcagni.gabriel86@gmail.com</a>
 
 #
 
