@@ -191,7 +191,7 @@ export default function Scraping() {
   <strong>`Contributions`:</strong> Interested in contributing to the project? Feel free to fork the repository on GitHub and submit a pull request. I appreciate any enhancements, bug fixes, or new features you may bring!
 </p>
 <p>
-  <strong>`General Inquiries`:</strong> Whether you have questions about the application's functionality, suggestions for improvement, or just want to say hello, your feedback is always welcome.
+  `General Inquiries`: Whether you have questions about the application's functionality, suggestions for improvement, or just want to say hello, your feedback is always welcome.
 </p>
 
 <p>Contact for any queries or feedback, feel free to reach out to my email at:</p>
