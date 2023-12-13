@@ -61,48 +61,26 @@ python app.py
 ```python
 from flask import Flask, jsonify
 from flask_cors import CORS
-# These lines import the necessary modules from the Flask framework.
-# Flask is a micro web framework for Python.
-
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-# These lines import the necessary modules from Selenium,
-# which is a web testing library. It's being used here to simulate a browser
-# and interact with web pages.
-
+import requests
 from bs4 import BeautifulSoup
-# This line imports BeautifulSoup, a library for pulling data out of HTML and XML files.
-# It is used to parse the HTML content obtained from the website.
 
-app = Flask(__name__) 
+app = Flask(__name__)
 CORS(app)
-# These lines initialize a Flask web application and enable Cross-Origin Resource Sharing (CORS),
-# which allows the application to make requests to a different domain
-# than the one from which the web page originated.
 
-# This code defines a route '/scream' where the scraping logic is implemented.
-@app.route('/scream')
+@app.route('/api/scrape', methods=['GET'])
 def scrape():
-    url = 'https://solidsnk86.netlify.app/'
-    options = Options()
-    options.headless = True
-    driver = webdriver.Chrome(options=options)
-
     try:
-        driver.get(url)
-        driver.implicitly_wait(5)
-
-        html = driver.page_source
-
-        soup = BeautifulSoup(html, 'html.parser')
+        url = 'https://solidsnk86.github.io/GerArt/'
+        response = requests.get(url)
+        soup = BeautifulSoup(response.text, 'html.parser')
 
         titles = [h1.text for h1 in soup.find_all('h1')]
         paragraphs = [paragraphs.text for paragraphs in soup.find_all('p')]
+        list_items = [li.text for li in soup.find_all('li')]
 
-        return jsonify({'titles': titles, 'paragraphs': paragraphs})
-
-    finally:
-        driver.quit()
+        return jsonify({'titles': titles , 'paragraphs': paragraphs , 'list_items': list_items })
+    except Exception as e:
+        return jsonify({'error': str(e)})
 
 if __name__ == '__main__':
     app.run(debug=True)
