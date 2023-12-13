@@ -14,10 +14,6 @@ pip install Flask
 ```bash
 pip isntall flask-cors
 ```
-- Selenium
-```bash
-pip install selenium
-```
 - Requests
 ```bash
 pip install requests
