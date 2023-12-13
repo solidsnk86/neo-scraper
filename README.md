@@ -185,13 +185,13 @@ export default function Scraping() {
 #
 
 <p>
-  <strong>`Error Reporting`:</strong> If you encounter any issues or errors while using our application, please don't hesitate to reach out. Provide details about the problem, and I'll work to address it promptly.
+  <strong>Error Reporting:</strong> If you encounter any issues or errors while using our application, please don't hesitate to reach out. Provide details about the problem, and I'll work to address it promptly.
 </p>
 <p>
-  <strong>`Contributions`:</strong> Interested in contributing to the project? Feel free to fork the repository on GitHub and submit a pull request. I appreciate any enhancements, bug fixes, or new features you may bring!
+  <strong>Contributions:</strong> Interested in contributing to the project? Feel free to fork the repository on GitHub and submit a pull request. I appreciate any enhancements, bug fixes, or new features you may bring!
 </p>
 <p>
-  `General Inquiries`: Whether you have questions about the application's functionality, suggestions for improvement, or just want to say hello, your feedback is always welcome.
+  <strong>General Inquiries:</strong> Whether you have questions about the application's functionality, suggestions for improvement, or just want to say hello, your feedback is always welcome.
 </p>
 
 <p>Contact for any queries or feedback, feel free to reach out to my email at:</p>
