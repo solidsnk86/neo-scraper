@@ -66,7 +66,7 @@ CORS(app)
 @app.route('/api/scrape', methods=['GET'])
 def scrape():
     try:
-        url = 'https://solidsnk86.github.io/GerArt/'
+        url = 'https://solidsnk86.netlify.app/'
         response = requests.get(url)
         soup = BeautifulSoup(response.text, 'html.parser')
 
