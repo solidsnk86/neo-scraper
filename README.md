@@ -139,26 +139,15 @@ export default function Scraping() {
             <h1 className="flex justify-center mx-auto text-5xl underline mb-3">
                 Web Scraping
             </h1>
-            <p className="border-l-4 border-lime-400 pl-4 m-3 font-semibold">
-                En este segmento, exploraremos el fascinante mundo del web scraping, una
-                técnica que nos permite extraer información de páginas web. En este
-                ejemplo, llevaré a cabo el scraping en mi propio portafolio web. Es
-                importante utilizar esta técnica con responsabilidad y respeto a las
-                políticas de uso de los sitios web objetivo.
-            </p>
             <hr className="border-zinc-800 my-6" />
             <p className="list-css-span">
-                Aquí presentamos los resultados obtenidos mediante web scraping. En este
-                caso, hemos instruido a nuestra aplicación Python para recopilar todos
-                los elementos de tipo<span>h1</span>
-                <b>encabezados</b> y los elementos de tipo<span>p</span>
-                <b>párrafos</b>:
+                Results from the web scraping:
             </p>
             <button
                 className="justify-center mx-auto text-button-variant border border-zinc-700 rounded p-2 w-fit my-3 hover:bg-zinc-800 hover:text-zinc-100"
                 onClick={handleScrape}
             >
-                Raspar!!
+                Scrape!!
             </button>
             {titles.map((title, index) => (
                 <article className="text-zinc-100 space-y-3 border-zinc-300 border-[1px] shadow-md rounded shadow-outline mt-6 p-6 dark:!shadow dark:border-zinc-800 overflow-x-auto">
