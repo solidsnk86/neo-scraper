@@ -141,13 +141,13 @@ import axios from 'axios';
 
 export default function Scraping() {
     const [titles, setTitles] = useState([]);
-    const [paragrhaps, setParagrhaps] = useState([]);
+    const [paragraphs, setParagraphs] = useState([]);
 
     const handleScrape = async () => {
         try {
             const response = await axios.get('http://127.0.0.1:5000/scream');
             setTitles(response.data.titles);
-            setParagrhaps(response.data.paragraphs);
+            setParagraphs(response.data.paragraphs);
         } catch (error) {
             console.error('Error al obtener datos del servidor:', error);
         }
@@ -174,7 +174,7 @@ export default function Scraping() {
                         <h1 key={index} className="text-sky-500 underline text-lg">
                             {title}
                         </h1>
-                        <p className="text-green-500">{paragrhaps}</p>
+                        <p className="text-green-500">{paragraphs}</p>
                     </>
                 ))}
             </article>
