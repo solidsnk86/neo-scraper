@@ -89,7 +89,6 @@ if __name__ == '__main__':
 - Inside the try block, it navigates to the specified URL, waits for 5 seconds (implicitly), retrieves the page source, and parses it using BeautifulSoup.
 - The titles and articles are extracted from the HTML content using BeautifulSoup.
 - The results are returned as a JSON response using Flask's jsonify function.
-- Finally, the finally block ensures that the WebDriver is properly closed, regardless of whether an exception occurred or not.
 
 > [!WARNING]
 >  Web scraping should be done ethically and in accordance with the website's terms of service. Always be aware of legal and ethical
