@@ -134,6 +134,7 @@ if __name__ == '__main__':
 </pre>
 <img width="50%" src="https://github.com/solidsnk86/neo-scraper/blob/master/public/json_scraping.png?raw=true" alt="JSON image description." />
 <p>To get that JSON result into your web app from React, you need to have a component like this:</p>
+
 ```javascript
 import React, { useState } from 'react';
 import axios from 'axios';
@@ -180,7 +181,6 @@ export default function Scraping() {
         </main>
     );
 }
-
 ```
 #
 
