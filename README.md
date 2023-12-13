@@ -97,9 +97,9 @@ def scrape():
         soup = BeautifulSoup(html, 'html.parser')
 
         titles = [h1.text for h1 in soup.find_all('h1')]
-        articles = [p.text for p in soup.find_all('p')]
+        paragraphs = [paragraphs.text for paragraphs in soup.find_all('p')]
 
-        return jsonify({'titles': titles, 'articles': articles})
+        return jsonify({'titles': titles, 'paragraphs': paragraphs})
 
     finally:
         driver.quit()
