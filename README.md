@@ -53,7 +53,7 @@ After installing the dependencies, you can run your Flask script. Make sure you 
 python app.py
 ```
 - This will start your Flask application on the local server and you can access it from your browser. Make sure you open the browser and visit the address the console displays after running the script (by default, it's usually something like http://127.0.0.1:5000/).
-- Certainly! The provided code is a simple Flask web application that utilizes Selenium and BeautifulSoup to scrape data from a website. Let's break down the code:
+- Certainly! The provided code is a simple Flask web application that utilizes Flask and BeautifulSoup to scrape data from a website. Let's break down the code:
 ```python
 from flask import Flask, jsonify
 from flask_cors import CORS
@@ -85,8 +85,8 @@ if __name__ == '__main__':
 ```
 
 ## Web Scraping Logic:
-- The script specifies a target URL and configures Selenium to run in headless mode (without a visible browser window). It then creates a Chrome WebDriver instance.
-- Inside the try block, it navigates to the specified URL, waits for 5 seconds (implicitly), retrieves the page source, and parses it using BeautifulSoup.
+- The script specifies a target URL and configures Flask like an api route to get this URL from Axios.
+- Inside the try block, it navigates to the specified URL, retrieves the page source, and parses it using BeautifulSoup.
 - The titles and articles are extracted from the HTML content using BeautifulSoup.
 - The results are returned as a JSON response using Flask's jsonify function.
 
