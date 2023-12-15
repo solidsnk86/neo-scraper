@@ -94,7 +94,7 @@ if __name__ == '__main__':
 >  Web scraping should be done ethically and in accordance with the website's terms of service. Always be aware of legal and ethical
 > considerations when scraping data from websites.
 
-<a href='https://youtu.be/_rqO9D4aFAw' target='_blank'>
+<a href='https://youtu.be/_rqO9D4aFAw' target='_blank' style='color: tomato; text-decoration:underline;'>
     I have a short video on YouTube that show you how this app works. In my case, I use it in my React web app and call it with Axios. Follow this link.
 </a>
 
