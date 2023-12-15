@@ -7,9 +7,7 @@ Neo-Scraper is an application made with Flask, Python, Beautifulsoup to do a web
 >If you wanna use this app, you need to install all these dependencies:
 
 - Flask
-```bash
-pip install Flask
-```
+<pre class="markdown-pre">pip install Flask</pre>
 - Flask-CORS
 ```bash
 pip isntall flask-cors
