@@ -105,7 +105,7 @@ if __name__ == '__main__':
 from flask import Flask, jsonify
 return jsonify({'titles': titles , 'paragraphs': paragraphs , 'list_items': list_items })
 ```
-<img width="50%" src="https://github.com/solidsnk86/neo-scraper/blob/master/public/json_scraping.png?raw=true" alt="JSON image description." />
+<img width="90%" src="https://github.com/solidsnk86/neo-scraper/blob/master/public/json_scraping.png?raw=true" alt="JSON image description." />
 <p>To get that JSON result into your web app from React, you need to have a component like this:</p>
 
 ```javascript
