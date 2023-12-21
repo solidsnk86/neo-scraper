@@ -2,7 +2,7 @@
 | Neo - Scraper  |
 -----------------|
 
-<p class="description-scraper">Neo-Scraper is an application made with Flask, Python, Beautifulsoup to do a web-scraping at any page which are made by React.</p>
+<p class="description-scraper">Neo-Scraper is an application made with Flask, Python, Beautifulsoup to do a web-scraping.</p>
 
 >[!Note]
 >If you wanna use this app, you need to install all these dependencies:
