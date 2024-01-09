@@ -115,7 +115,7 @@ return jsonify({'titles': titles , 'paragraphs': paragraphs , 'list_items': list
 
 Para obtener ese resultado <abbr title="Graphics Interchange Format">JSON</abbr> en tu aplicación web desde React, necesitas tener un componente como este:
 
-```jsx
+```javascript
 import React, { useState } from 'react';
 import axios from 'axios';
 import { ArrowLeftIcon } from 'lucide-react';
@@ -158,7 +158,7 @@ export default function Scraping() {
             {titles.map((title, index) => (
                 <article className="text-zinc-100 space-y-3 border-zinc-300 border-[
 ```
-
+<br></br>
 Con esto seremos capaces de levantar un servidor de nuestra aplicación python y poder requerir el `JSON` desde nuestra react app.
 
 #
