@@ -94,7 +94,7 @@ El script especifica una URL de destino y configura Flask como una ruta de API p
 - Los resultados se devuelven como una respuesta JSON usando la función jsonify de Flask.
 
 
-> [!WARNING]
+> [!Warning]
 > El web scraping debe realizarse éticamente y de acuerdo con los términos de servicio del sitio web. Siempre ten en cuenta las consideraciones legales y éticas al extraer datos de sitios web.
 
 
