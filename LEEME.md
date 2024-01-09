@@ -159,3 +159,26 @@ export default function Scraping() {
 ```
 
 Con esto seremos cpaces de levantar un servidor de nuestra aplicación python y poder requerir el `JSON` desde nuestra react app.
+
+#
+
+<p>
+  <strong>Reporte de Errores:</strong> Si encuentras algún problema o error al utilizar nuestra aplicación, no dudes en ponerte en contacto. Proporciona detalles sobre el problema y trabajaré para resolverlo rápidamente.
+</p>
+<p>
+  <strong>Contribuciones:</strong> ¿Interesado en contribuir al proyecto? Siéntete libre de hacer un fork del repositorio en GitHub y enviar un pull request. ¡Aprecio cualquier mejora, corrección de errores o nuevas características que puedas aportar!
+</p>
+<p>
+  <strong>Consultas Generales:</strong> Ya sea que tengas preguntas sobre la funcionalidad de la aplicación, sugerencias para mejorarla o simplemente quieras saludar, tu retroalimentación siempre es bienvenida.
+</p>
+
+<p>Para cualquier consulta o comentario, no dudes en ponerte en contacto a través de mi correo electrónico:</p>
+
+[![Gmail Badge](https://img.shields.io/badge/-calcagni.gabriel86@gmail.com-d14836?style=flat&logo=Gmail&logoColor=white&link=mailto:mailto:calcagni.gabriel86@gmail.com)](mailto:calcagni.gabriel86@gmail.com)
+
+#
+
+<div align="center">
+  <p>NeoTecs Dev ©2023</p>
+</div>
+
