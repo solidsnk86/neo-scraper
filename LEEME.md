@@ -100,7 +100,7 @@ El script especifica una URL de destino y configura Flask como una ruta de API p
     Tengo un breve video en YouTube que te muestra cómo funciona esta aplicación. En mi caso, lo uso en mi aplicación web de React y lo llamo con Axios. Sigue este enlace.
 </a>
 
-- Aquí hay una breve descripción del JSON que recibiremos de la aplicación Python.
+- Aquí hay una breve descripción del `JSON` que recibiremos de la aplicación Python.
 
 ```python
 from flask import Flask, jsonify
