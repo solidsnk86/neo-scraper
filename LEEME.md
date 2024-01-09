@@ -112,7 +112,7 @@ return jsonify({'titles': titles , 'paragraphs': paragraphs , 'list_items': list
 ```
 
 <img width="100%" src="https://github.com/solidsnk86/neo-scraper/blob/master/public/json_scraping.png?raw=true" alt="Descripción de la imagen JSON." />
-<p>Para obtener ese resultado <abbr title="Graphics Interchange Format">JSON</abbr> en tu aplicación web desde React, necesitas tener un componente como este:</p>
+<p>Para obtener ese resultado <mark>JSON</mark> en tu aplicación web desde React, necesitas tener un componente como este:</p>
 
 ```jsx
 import React, { useState } from 'react';
