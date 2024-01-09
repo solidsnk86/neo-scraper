@@ -3,7 +3,7 @@
 
 <p class="description-scraper">Neo-Scraper es una aplicación simple hecha con Flask, Python y Beautifulsoup para hacer web-scraping.</p>
 
->[!Nota]
+>[!Note]
 >Si deseas usar esta aplicación, debes instalar todas estas dependencias:
 
 - Flask
