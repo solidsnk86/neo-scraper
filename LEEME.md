@@ -92,3 +92,6 @@ El script especifica una URL de destino y configura Flask como una ruta de API p
 - Dentro del bloque try, navega a la URL especificada, obtiene el origen de la página y lo analiza con BeautifulSoup.
 - Los títulos y párrafos se extraen del contenido HTML utilizando BeautifulSoup.
 - Los resultados se devuelven como una respuesta JSON usando la función jsonify de Flask.
+
+> [!ADVERTENCIA]
+> El web scraping debe realizarse éticamente y de acuerdo con los términos de servicio del sitio web. Siempre ten en cuenta las consideraciones legales y éticas al extraer datos de sitios web.
