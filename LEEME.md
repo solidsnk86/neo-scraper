@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ```
 Por otro lado, necesitamos ejecutar el servidor virtual.
 
-> [!Importante]
+> [!NOTE]
 > Estos comandos deben ejecutarse en tu terminal o símbolo del sistema. Asegúrate de estar en un entorno virtual si estás trabajando en un proyecto específico. Puedes crear un entorno virtual usando venv de la siguiente manera:
 
 ```bash
@@ -93,5 +93,5 @@ El script especifica una URL de destino y configura Flask como una ruta de API p
 - Los títulos y párrafos se extraen del contenido HTML utilizando BeautifulSoup.
 - Los resultados se devuelven como una respuesta JSON usando la función jsonify de Flask.
 
-> [!ADVERTENCIA]
+> [!WARNING]
 > El web scraping debe realizarse éticamente y de acuerdo con los términos de servicio del sitio web. Siempre ten en cuenta las consideraciones legales y éticas al extraer datos de sitios web.
