@@ -95,3 +95,63 @@ El script especifica una URL de destino y configura Flask como una ruta de API p
 
 > [!WARNING]
 > El web scraping debe realizarse éticamente y de acuerdo con los términos de servicio del sitio web. Siempre ten en cuenta las consideraciones legales y éticas al extraer datos de sitios web.
+
+<a href='https://youtu.be/_rqO9D4aFAw' target='_blank' style='color: tomato; text-decoration:underline;'>
+    Tengo un breve video en YouTube que te muestra cómo funciona esta aplicación. En mi caso, lo uso en mi aplicación web de React y lo llamo con Axios. Sigue este enlace.
+</a>
+
+- Aquí hay una breve descripción del JSON que recibiremos de la aplicación Python.
+
+```python
+from flask import Flask, jsonify
+return jsonify({'titles': titles , 'paragraphs': paragraphs , 'list_items': list_items })
+```
+
+<img width="100%" src="https://github.com/solidsnk86/neo-scraper/blob/master/public/json_scraping.png?raw=true" alt="Descripción de la imagen JSON." />
+<p>Para obtener ese resultado JSON en tu aplicación web desde React, necesitas tener un componente como este:</p>
+
+```jsx
+import React, { useState } from 'react';
+import axios from 'axios';
+import { ArrowLeftIcon } from 'lucide-react';
+
+export default function Scraping() {
+    const [titles, setTitles] = useState([]);
+    const [paragraphs, setParagraphs] = useState([]);
+    const [items, setItems] = useState([]);
+
+    const handleScrape = async () => {
+        try {
+            const response = await axios.get('http://127.0.0.1:5000/api/scrape');
+            setTitles(response.data.titles);
+            setParagraphs(response.data.paragraphs);
+            setItems(response.data.list_items);
+        } catch (error) {
+            console.error('Error al obtener datos del servidor:', error);
+        }
+    };
+
+    return (
+        <main className=" text-text-primary flex flex-col justify-center m-auto p-10 xl:w-1/2">
+            <ArrowLeftIcon
+                className="text-text-primary cursor-pointer hover:translate-x-[-2px] transition-all left-6 top-6 fixed"
+                onClick={() => window.open('/docs/program')}
+            />
+            <h1 className="flex justify-center mx-auto text-5xl underline mb-3">
+                Web Scraping
+            </h1>
+            <hr className="border-zinc-800 my-6" />
+            <p className="list-css-span">
+                Resultados del web scraping:
+            </p>
+            <button
+                className="justify-center mx-auto text-button-variant border border-zinc-700 rounded p-2 w-fit my-3 hover:bg-zinc-800 hover:text-zinc-100"
+                onClick={handleScrape}
+            >
+                ¡Scrapear!
+            </button>
+            {titles.map((title, index) => (
+                <article className="text-zinc-100 space-y-3 border-zinc-300 border-[
+```
+
+Con esto seremos cpaces de levantar un servidor de nuestra aplicación python y poder requerir el `JSON` desde nuestra react app.
