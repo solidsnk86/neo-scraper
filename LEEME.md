@@ -159,7 +159,7 @@ export default function Scraping() {
                 <article className="text-zinc-100 space-y-3 border-zinc-300 border-[
 ```
 
-Con esto seremos cpaces de levantar un servidor de nuestra aplicación python y poder requerir el `JSON` desde nuestra react app.
+Con esto seremos capaces de levantar un servidor de nuestra aplicación python y poder requerir el `JSON` desde nuestra react app.
 
 #
 
