@@ -9,11 +9,11 @@
 
 - Flask
 ```bash
-pip isntall Flask
+pip install Flask
 ```
 - Flask-CORS
 ```bash
-pip isntall flask-cors
+pip install flask-cors
 ```
 - Requests
 ```bash
